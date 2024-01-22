@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-with st.expander("Start Camera")
+with st.expander("Start Camera"):
     # Start the camera.
     camera_image = st.camera_input("Camera")
 
