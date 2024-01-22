@@ -15,9 +15,8 @@ def convert(image):
 
 
 st.subheader("Color to Grayscale Converter")
-st.text("Upload Image")
+# st.text("Upload Image")
 uploaded_image = st.file_uploader("Upload Image", key="upload")
-
 
 
 with st.expander("Start Camera"):
